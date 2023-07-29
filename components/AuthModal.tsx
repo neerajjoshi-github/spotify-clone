@@ -33,7 +33,7 @@ const AuthModal = () => {
       title="Welcome Back"
       description="Log in to your account"
       isOpen={isopen}
-      onChange={() => {}}
+      onChange={onChange}
     >
       <Auth
         providers={["github"]}
